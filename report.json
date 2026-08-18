@@ -1,0 +1,23 @@
+[
+    {
+        "type": "Brute Force Attack",
+        "ip": "192.168.1.10",
+        "failed_attempts": 5,
+        "time_window": "5 minutes",
+        "severity": "HIGH"
+    },
+    {
+        "type": "Suspicious Authentication Pattern",
+        "ip": "192.168.1.50",
+        "user": "admin",
+        "failed_attempts": 4,
+        "event": "FAILED \u2192 SUCCESS",
+        "severity": "HIGH"
+    },
+    {
+        "type": "Brute Force",
+        "ip": "192.168.1.50",
+        "failed_attempts": 1,
+        "severity": "HIGH"
+    }
+]
